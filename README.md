@@ -1,10 +1,10 @@
 
 
 
-End to End Data Science Project Time Series Analysis for Temperature Forecasting using ARIMA Model
+###End to End Data Science Project Time Series Analysis for Temperature Forecasting using ARIMA Model###
 
 
-Requirements
+###Requirements###
 
 
 Python 3.5 or higher
@@ -19,19 +19,19 @@ Statsmodels
 
 
 
-Dataset
+###Dataset###
 
 In this project, the Dataset used is the famous Kaggle Dataset.
 
 
 
-Exploratory Data Analysis
+###Exploratory Data Analysis###
 
 First we use pandas to read the CSV file. After that we perform Data Cleaning such as removing unwanted columns, identifying and filling the missing values.
 
 
 
-Checking Time Series Data Stationarity:
+###Checking Time Series Data Stationarity:###
 
 This is achieved using Augmented Dickey-Fuller test which assists finding out the stationary properties in the Time series data.
 
@@ -40,7 +40,7 @@ The stationarity check is carried out using the plot and p-value is tested.
 
 
 
-Stationary_Check
+##Stationary_Check##
 
 
 Augmented Dickey-Fuller test:
@@ -83,7 +83,7 @@ As the p-value is below the threshold value, thus we can reject null-hypothesis 
 
 
 
-Modelling and Forecasting Temperature
+###Modelling and Forecasting Temperature###
 
 I used ARIMA model which stands for "Auto-Regressive Integrated Moving Averages".
 
@@ -94,7 +94,7 @@ In this case as the data is stationary therefore only AR and MA have been taken 
 Then AIC is calculated and then I found values of p and q having lowest AIC where the p represents the number of Auto-Regressive (AR) terms and q represents the number of Moving Averages (MA) terms.
 
 
-After that the results are predicted. Here is the example of results.
+###   After that the results are predicted. Here is the example of results.
 
 
 Year	Temperature Forecasting (Deg C)
