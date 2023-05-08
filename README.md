@@ -3,12 +3,15 @@
 
 
 End to End Data Science Project Time Series Analysis for Temperature Forecasting using ARIMA Model
+
 Requirements
+
 Python 3.5 or higher
 Numpy
 Pandas
 Matplotlib
 Statsmodels
+
 Dataset
 In this project, the Dataset used is the famous Kaggle Dataset.
 
